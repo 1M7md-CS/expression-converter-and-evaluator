@@ -65,7 +65,7 @@ public abstract class CLIHandler {
 	}
 
 	private static void displayMenu() {
-		String title = "Welcome to the Math Expression Converter and Evaluator!";
+		String title = "Welcome to the Math Expression Calculator!";
 
 		String[] options = {
 				"1. Convert Infix to Postfix",
@@ -222,7 +222,7 @@ public abstract class CLIHandler {
 	}
 
 	private static void displayExitMessage() {
-		String message = "Thank you for using the Math Expression Converter and Evaluator.";
+		String message = "Thank you for using the Math Expression Calculator.";
 		int width = message.length();
 		width = Math.max(width, 40);
 
