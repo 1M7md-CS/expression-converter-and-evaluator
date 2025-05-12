@@ -4,7 +4,7 @@
 [![Postfix](https://img.shields.io/badge/Notation-Postfix-blue)](https://simple.wikipedia.org/wiki/Postfix_notation)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-24-red.svg)](https://www.oracle.com/java/)
-[![GitHub issues](https://img.shields.io/github/issues/1M7md-CS/math-expression-converter)](https://github.com/1M7md-CS/math-expression-converter/issues)
+[![GitHub issues](https://img.shields.io/github/issues/1M7md-CS/math-expression-converter)](https://github.com/1M7md-CS/math-expression-calculator/issues)
 
 A simple tool to convert mathematical expressions between **Infix**, **Postfix**, and **Prefix** notations — and evaluate them.
 
@@ -27,16 +27,16 @@ A simple tool to convert mathematical expressions between **Infix**, **Postfix**
 
 ```bash
 # Clone the repository
-git clone https://github.com/1M7md-CS/math-expression-converter.git
+git clone https://github.com/1M7md-CS/math-expression-calculator.git
 
 # Navigate to the project directory
-cd math-expression-converter
+cd math-expression-calculator
 
 # Compile the Java files
-javac -d bin src\converter\*.java src\evaluator\*.java src\utils\*.java src\main\*.java
+javac -d bin (Get-ChildItem -Recurse -Filter *.java -Path src/main/java/com/calculator).FullName
 
 # Run the application
-java -cp bin main.EvaluatorMain
+java -cp bin com.calculator.main.Main
 ```
 
 ## Usage
