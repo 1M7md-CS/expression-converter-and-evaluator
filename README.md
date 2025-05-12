@@ -4,7 +4,7 @@
 [![Postfix](https://img.shields.io/badge/Notation-Postfix-blue)](https://simple.wikipedia.org/wiki/Postfix_notation)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-24-red.svg)](https://www.oracle.com/java/)
-[![GitHub issues](https://img.shields.io/github/issues/1M7md-CS/math-expression-converter)](https://github.com/1M7md-CS/math-expression-calculator/issues)
+[![GitHub issues](https://img.shields.io/github/issues/1M7md-CS/math-expression-calculator)](https://github.com/1M7md-CS/math-expression-calculator/issues)
 
 A simple tool to convert mathematical expressions between **Infix**, **Postfix**, and **Prefix** notations — and evaluate them.
 
