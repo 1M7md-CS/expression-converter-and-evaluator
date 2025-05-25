@@ -55,7 +55,7 @@ public abstract class CLIHandler {
 		};
 
 		int longestLineLength = Frame.getLongestLineLength(title, options);
-		Frame.printMenuFrame(title,options,longestLineLength,6);
+		Frame.printMenuFrame(title,options,longestLineLength,3);
 	}
 
 	private static int getUserChoice() {
@@ -175,7 +175,7 @@ public abstract class CLIHandler {
 
 
 		int longestLineLength = Frame.getLongestLineLength(title, lines);
-		Frame.printMenuFrame(title,lines,longestLineLength,6);
+		Frame.printMenuFrame(title,lines,longestLineLength,2);
 	}
 
 	private static void displayExitMessage() {
