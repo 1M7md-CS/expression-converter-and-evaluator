@@ -96,4 +96,16 @@ public class Frame {
 		return " ".repeat(midPoint) + text + " ".repeat(longestLineLength - midPoint - text.length());
 	}
 
+	public static int getLongestLineLength(String title, String[] lines){
+
+		int longestLineLength = title.length();
+
+		for (String line : lines){
+			longestLineLength = Math.max(longestLineLength, line.length());
+		}
+
+		return longestLineLength;
+
+	}
+
 }
